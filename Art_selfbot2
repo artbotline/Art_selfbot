@@ -11,12 +11,12 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="EscaW8ljFEa05EP5LZc8.Az+e9zx1aKnHFkBmtSDZYa.gGZ3+rfFyrNcmAVq6UnukcEghmtDJ+0XQwJdkYoSjeo=")
+cl.login(token="")
 cl.loginResult()
 
-ki1 = LINETCR.LINE()
-ki1.login(token="EsC1ZCQRoKcJPjq07Ju2.FhhNokcvxL52GrZPZEN+aG.2XYTT5DvqYhbJZBDxaEf/XbhJCNPQCbHB17SnqgkrWc=")
-ki1.loginResult()
+#ki1 = LINETCR.LINE()
+#ki1.login(token="EsC1ZCQRoKcJPjq07Ju2.FhhNokcvxL52GrZPZEN+aG.2XYTT5DvqYhbJZBDxaEf/XbhJCNPQCbHB17SnqgkrWc=")
+#ki1.loginResult()
 
 #ki2 = LINETCR.LINE()
 #ki2.login(token="ErJ6EcYLxLXvpFjecKv3.79PAR+RAKsSM2zgsVO+CyW.L9I1tyNHPJogW92d4PJvv97vlsJi4nHuRSoCDi3fm38=")
@@ -291,9 +291,9 @@ helpMessage4 ="""
 ║✰ บินแม่ง ➠สั่งคิกเกอร์บินห้อง
 ╚══════════════════════
 """
-KAC=[cl,ki1]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid1 = ki1.getProfile().mid
+#Amid1 = ki1.getProfile().mid
 #Amid2 = ki2.getProfile().mid
 #Amid3 = ki3.getProfile().mid
 #Amid4 = ki4.getProfile().mid
@@ -312,13 +312,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = "u699fc4f595f50243617ca6cc4ec773c8","u7c71e738a0955e5e76811ce9cde9ff02"
-self = "u699fc4f595f50243617ca6cc4ec773c8"
-admin = "u699fc4f595f50243617ca6cc4ec773c8"
-admsa = "u699fc4f595f50243617ca6cc4ec773c8"
-owner = "u699fc4f595f50243617ca6cc4ec773c8"
-adminMID = "u699fc4f595f50243617ca6cc4ec773c8"
-Creator="u699fc4f595f50243617ca6cc4ec773c8"
+Bots = 
+self = 
+admin = 
+admsa = 
+owner = 
+adminMID = 
+Creator=
 wait = {
     "alwayRead":False,
     "detectMention":True,
@@ -413,11 +413,11 @@ mybackup.statusMessage = contact.statusMessage
 mybackup.pictureStatus = contact.pictureStatus
 
 
-contact = ki1.getProfile()
-backup = ki1.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki1.getProfile()
+#backup = ki1.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+###backup.pictureStatus = contact.pictureStatus
 
 #contact = ki2.getProfile()
 #backup = ki2.getProfile()
